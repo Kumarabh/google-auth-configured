@@ -1,0 +1,7 @@
+<div class="container w-50">
+  <mat-card>
+    <mat-card-content>Logged In as: {{service.loggedInUser | json}}</mat-card-content>
+  </mat-card>
+  
+  <button mat-raised-button (click)="logout()">Logout</button>
+</div>
